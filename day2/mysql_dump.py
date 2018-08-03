@@ -6,7 +6,7 @@ import time
 HOST='localhost'
 PORT='3306'
 DB_USER='root'
-DB_PASS='Rama$1819'
+DB_PASS='xxxxxx'
 databases=('mysql', 'test', 'test1')
 backup_path="/root/"
 

@@ -3,7 +3,7 @@
 NOW=$(date +"%d-%m-%Y")
 location=/var/log/mysql-backup
 muser=root
-mpass="Rama$1819"
+mpass="xxxxx"
 mhost=localhost
 opt=/root/file
 mysql=/usr/bin/mysql
@@ -17,7 +17,7 @@ then
 fi
 
 
-dbconnect="$(mysql -u root -p'Rama$1819' -Bse 'show databases' > $opt)"
+dbconnect="$(mysql -u root -p'xxxxxxx' -Bse 'show databases' > $opt)"
 
 echo -n "Dumping..."
 for i in `cat $opt`
